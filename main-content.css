@@ -1,0 +1,291 @@
+.left-side {
+	height: 496px;
+	width: 536px;
+	padding: 0 48px 0 0;
+	margin-left: 200px;
+  display: inline-block;
+}
+
+
+
+.facebook-title {
+	width: 190px;
+	height: 80px;
+}
+
+.facebook-title-container {
+	height: 34.075px;
+	width: 536px;
+	padding-bottom: 16px;
+}
+
+
+
+.main-container {
+  padding-left: 60px;
+  padding-top: 60px;
+	height: 720px;
+	width: 1409.2px;
+	display: flex;
+
+
+}
+
+.recent-logins-container {
+	margin-top: 10px;
+	padding-top: 20px;
+	width: 536px;
+	height: 36px;
+	font-family: arial;
+	font-size: 28px;
+	line-height: 32px;
+}
+
+.click-picture-or-add-accaunt{
+	display: inline-block;
+	margin-left: 2px;
+	width: 536px;
+	height: 28px;
+	font-family: arial;
+	font-size: 18px;
+	padding-bottom: 12px;
+	margin-bottom: 12px;
+	color: rgb(96, 103, 112);
+	line-height: 24px;
+}
+
+.user {
+	width: 161.75px;
+	height: 46px;
+	position: relative;
+}
+
+.user-display {
+	margin-top: -5px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-width: 1px;
+	border-top-width: 0px;
+  border-color:  rgb(227, 227, 227);
+	border-style: solid;
+	text-align: center;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+  background-color: rgb(245, 246, 247);
+  font-size: 22px;
+}
+
+.user-display-add{
+	margin-top: -5px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-width: 1px;
+	border-top-width: 0px;
+  border-color:  rgb(227, 227, 227);
+	border-style: solid;
+	text-align: center;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+  background-color: rgb(245, 246, 247);
+  font-size: 22px;
+  color: rgb(24, 119, 242) 
+}
+
+.profile-picture {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	width: 160px;
+	height: 160px;
+	border-width: 1px;
+	border-bottom-width: 0px;
+	border-color:  rgb(227, 227, 227);
+	border-style: solid;
+}
+
+
+.profile-picture-plus {
+	width: 42px;
+	height: 42px;
+	padding: 59px 58px 59px 60px;
+	align-items: center;
+	justify-content: center;
+	border-width: 1px;
+	border-bottom-width: 0px;
+	border-color:  rgb(227, 227, 227);
+	border-style: solid;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	object-fit: cover;
+	object-position: top;
+}
+
+.profile-picture-row {
+	width: 178px;
+	height: 226px;
+	position: relative;
+}
+
+.notifications-count-one {
+  position: absolute;
+  background-color: #fa3e3e;
+  color: white;
+  font-family: roboto,arial;
+  right: 15px;
+  border-radius: 24px;
+  text-align: center;
+  padding: 3.5px 8.2px 3.5px 8px;
+  top: -5px;
+  right: 13px;
+  font-size: 14px;
+}
+
+.notifications-count-two {
+  position: absolute;
+  background-color: #fa3e3e;
+  color: white;
+  font-family: roboto,arial;
+  right: 15px;
+  border-radius: 24px;
+  text-align: center;
+  padding: 3.5px 8.2px 3.5px 8px;
+  top: -5px;
+  right: 13px;
+  font-size: 14px;
+}
+
+
+.profile-grid {
+	display: flex;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 12px 18,66px;
+
+}
+
+.profile-preview {
+	width: 178px;
+	height: 226px;
+}
+
+
+.right-side{
+  margin-top: 10px;
+	height: 496px;
+	width: 396px;
+	display: inline-block;
+  position: relative;
+}
+
+.outer-box {
+  display: block;
+	background-color: #fff;
+	height: 347.23px;
+	width: 394.4px;
+  margin-top: 55px;
+  border-width: 1px;
+  border-radius: 8px;
+  border-color:  rgb(227, 227, 227);
+  border-style: solid;
+}
+
+.email-or-phone {
+  display: block;
+  height: 22px;
+  width: 330px;
+  margin-left: 13.4px;
+  padding: 14px 16px;
+  border-radius: 6px;
+  border-width: 0.8px;
+  font-size: 17px;
+  margin-top: 15px;
+  border-color:  rgb(227, 227, 227);
+  border-style: solid;
+}
+
+.password {
+  display: block;
+  height: 22px;
+  width: 330px;
+  margin-left: 13.4px;
+  padding: 14px 16px;
+  border-radius: 6px;
+  border-width: 0.8px;
+  font-size: 17px;
+  margin-top: 15px;
+  border-color:  rgb(227, 227, 227);
+  border-style: solid;
+}
+
+.sign-in{
+	display: block;
+  height: 48px;
+  width: 364px;
+  padding: 0px 16px 0px 16px;
+  margin-left: 13.4px;
+  margin-top: 12px;
+  font-size: 20px;
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border-width: 0px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.forgot-password {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  color: rgb(24, 119, 242);
+  font-size: 14px;
+}
+
+.inside-box-line {
+  display: flex;
+  border-style: solid;
+  border-width: 0px;
+  border-bottom-width: 0.8px;
+  border-color: rgb(227, 227, 227);
+  width: 364px;
+  height: 0px;
+  margin: 20px 16px 20px 16px;
+}
+
+.create-new-accaunt-div{
+  padding-top: 6px;
+}
+
+.create-new-accaunt {
+  text-align: center;
+  margin-left: 88.6px;
+  display: block;
+  height: 48px;
+  width: 218.81px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #42b72a;
+  color: white;
+  border-color: #42b72a;
+  border-style: solid;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.create-page-for-div {
+  text-align: center;
+
+}
+
+.create-page-for {
+  margin-top: 28px;
+  font-size: 16px;
+  color: black;
+
+}
+
+.create-page {
+  font-weight: bold;
+  font-size: 14px;
+}
+.create-page:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
